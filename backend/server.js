@@ -4,7 +4,7 @@ const cors = require('cors');
 const axios = require('axios');
 const app = express();
 const API_KEY = process.env.OPENWEATHER_API_KEY;
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://weather-dashboard-eight-smoky.vercel.apphttp://localhost:3000' }));
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
